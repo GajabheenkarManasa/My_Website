@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Orbitron', sans-serif;
+    background: #a2d2ff;
+    color: #ffffff;
+    background: linear-gradient(lightskyblue,pink);
+}
+h1, h2, h4{
+    text-shadow: 0px 0px 5px black;
+}
+
+#circle{
+    width: 250px;
+    border-radius: 50%;
+    border:6px solid #efb0c9;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#age{
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
+} 
+#date{
+    margin: 0;
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.gift-section{
+    margin: 50px;
+
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+,gift-hint{
+    margin-top:0;
+}
+.gift-img{
+    margin:0 auto;
+    width: 400px;
+    height: 400px;
+    border:6px solid white;
+    border-radius: 10px;
+    background-image: url("gift.jpg");
+    background-size: cover;
+    
+}
+#gift-imghappy:hover{
+    background-image: url("https://media.tenor.com/hI-oOVvwasYAAAAC/happy.gif");
+}
+
+#gift-img-hot:hover{
+    background-image: url("https://media.tenor.com/7u6K2_kO5VgAAAAC/anime-boy.gif");
+    
+}
+#gift-img-word:hover{
+    background-image: url("https://media.tenor.com/yL9ngAGX60oAAAAC/genius-very-smart.gif")
+}
+#gift-img-funny:hover{
+    background-image: url("https://media.tenor.com/h8vi5eI5qsAAAAAC/buffalo-eating-buffalo.gif");
+}
+#gift-final{
+    height: 250px;
+}
+#gift-final:hover{
+    background-image: url("https://media0.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
+}
+#footer{
+    font-style: italic;
+    text-shadow: 0px 0px 5px black;
+}
